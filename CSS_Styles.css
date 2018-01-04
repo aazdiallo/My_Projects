@@ -1,0 +1,555 @@
+/*
+   MACC Student Enrollment
+   Author: Abdoul Diallo
+   Date:   10/27/2017
+
+   Filename: Project_CSS.css
+   Supporting Files: none
+*/
+
+/* reset the default margin and padding which are applied by the browser */
+* {
+    margin: auto;
+    padding: auto;
+}
+
+
+html, body {
+    width: 100%;
+    overflow-x: auto;
+}
+#birth {
+    font-size: 1em;
+}
+/* Settings for the login page */
+.LoginPage {
+    margin-top: 20%;
+    width: 60%;
+    height: 170px;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* Body styles */
+body {
+    margin: auto;
+    width: 100%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.9em;
+    font-weight: normal;
+    line-height: 0.9em;
+    list-style: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    position: relative;
+    min-width: 900px;
+    max-width: 100%;
+    background-image: url("roni.gif");
+}
+#Welcome {
+    min-height: 530px;
+    margin-bottom: 1%;
+}
+
+h2,h3,h4{
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin-left: 1.9em;
+    background: midnightblue;
+}
+
+#main {
+    width: 95.3%;
+    float: left;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    height: 650px;
+    padding: 3px 30px;
+    /* Property allowing the elements to not resize with the browser window */
+                                min-width: 900px;
+                                max-width: 100%;
+
+    border-left: 1px solid teal;
+    border-bottom: 1px solid teal;
+    border-right: 1px solid teal;
+    box-shadow: 0 4px;
+}
+
+img .Free, img .Closed {
+    cursor: none;
+    width: 70%;
+}
+
+#MinWidth{
+    min-height: 510px;
+}
+#main #Top, .LinkRight { /* floating the link to the top of the page right */
+    float: right;
+}
+a #Top{
+    color: black;
+}
+
+#main .Home, .LinkLeft { /* floating the link to the home page left */
+    float: left;
+}
+
+#main .Link { /* Displaying the two links inline*/
+    display: inline;
+}
+
+#summary{
+    float: right;
+    border: 1px solid teal;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#specifics {
+    text-align: center;
+    color: black;
+}
+/* Anchors styles definition */
+/* unvisited link */
+a:link {
+    color: midnightblue;
+}
+
+/* visited link */
+a:visited {
+    color: deepskyblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: #018589;
+}
+
+/* selected link */
+
+a:active {
+    color: #f9f8ca;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#situation{
+    float: left;
+    border: 1px solid teal;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* Navigation list style definition */
+#Menu li {
+    display: block;
+    float: left;
+    width: 11.11%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #002e59;
+    padding-bottom: 3px;
+}
+#Menu, #HomeMenu {
+    padding: 0;
+    /*background-color: #210002;*/
+    width: 100%;
+    display: block;
+    min-width: 100%;
+}
+
+#HomeMenu li {
+    display: block;
+    float: left;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #002e59;
+}
+
+/* Proprietary logo position */
+.Left{
+    width: 23%;
+    /* margin-top: 2em; */
+    float: left;
+    border: 1px solid teal;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Open Source logo position */
+.Right {
+    width: 18%;
+    /* margin-top: 2em; */
+    float: right;
+    border: 1px solid teal;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#main h1 {
+    margin: 1em;
+    font-size: 1.2em;
+    color: teal;
+}
+
+#main p {
+    margin: 3px;
+    font-family: "Courier New", Courier, monospace;
+    padding: 5px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+aside img {
+    width: 100%;
+}
+
+footer address {
+    width: 100%;
+    clear: left;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: small-caps;
+    border: 1px solid teal;
+    background-color: #e6f2ff;
+}
+
+/* property for the comment list */
+#commentL{
+    font-family: "Courier New", Courier, monospace;
+    background-color: teal;
+    color: white;
+    padding: 0 0;
+    border: 3px solid white;
+    text-align: center;
+}
+
+aside blockquote {
+    margin: 1.2em 2em 0 2em;
+}
+
+aside blockquote p {
+    margin: 0 0 2em;
+    font-size: 0.7em;
+}
+
+#Comments {
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.2);
+    font-size: 1.5em;
+    border: outset;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* Setting the logos to blink */
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    20% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    20% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    20% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.blink-image, #main .Paragraph a .topPage /* , #summary, #situation */ {
+    -moz-animation: blink normal 5s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 5s infinite ease-in-out; /* Webkit */
+    /*-ms-animation: blink normal 5s infinite ease-in-out; /* IE */
+    animation: blink normal 5s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+/* Definition of the dropdown list styles */
+
+/* Dropdown Button */
+.dropbtn, .dropbtn a {
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: transparent;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+    color: White;
+    font-family: inherit;
+    padding: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    width: 100%;
+    float: left;
+    /* center the dropdown list according to the parent element */
+    right: -100%;
+    left: -100%;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    /*background-color: whitesmoke;*/
+    /*border-radius: 3px;*/
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #210002;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content, .dropdown-content:hover {
+    display: block;
+    position: absolute;
+    /*border-radius: 2px;*/
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn, .dropbtn a:hover {
+    background-color: black;
+    /*border-radius: 2px;*/
+}
+
+/* Field set styles */
+fieldset {
+    background-color: aliceblue;
+    border: 1px solid midnightblue;
+    float: left;
+    margin: 0 0 0 0.4%;
+    width: 60%;
+    height: 100%;
+    resize: none;
+}
+
+legend {
+    background-color: midnightblue;
+    color: white;
+    padding: 5px 12px;
+    text-indent: 20%;
+    width: 100%;
+    resize: none;
+    font-size: x-large;
+    margin-top: -3%;
+}
+
+/* Label styles */
+label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    margin:2px 4% 2px 2px;
+    width: 37%;
+}
+
+/* Input control styles */
+input {
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    margin: 2px 0;
+    width: 48%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+input#state {
+    width: 54%;
+    height: 5%;
+}
+input#countdown{
+    width: 10%;
+    height: 5%;
+}
+
+input#visitdate{
+    width: 50%;
+    height: 4%;
+}
+
+label#CharLeft {
+    width: 45%;
+}
+/* Selection list styles */
+select {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 2px 0;
+}
+
+input[type = "submit"], input[type = "reset"] {
+    font-family: "Courier New", Courier, monospace;
+    background-color: whitesmoke;
+    color: midnightblue;
+    display: block;
+    float: none;
+    width: 45%;
+}
+
+.button {
+    text-align: center;
+
+}
+
+/* Textarea styles definition */
+textarea  {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    float: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 320px;
+    width: 96%;
+    resize: none;
+}
+
+/* Validation styles */
+input:focus, select:focus, textarea:focus {
+    background-color: azure;
+}
+
+input:focus:valid {
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+input:valid {
+    color: green;
+}
+input:invalid {
+    color: red;
+}
+
+input:focus:invalid {
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/* aligning the fieldsets */
+fieldset#Ins_Info, fieldset#CoursInfo, fieldset#StudentInfo, fieldset#CampusInfo, fieldset#RoomInfo,
+fieldset#SessInfo, fieldset#DepartInfo, fieldset#DegreeInfo, fieldset#EnrollST{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom: 5%;
+    min-width: 500px;
+}
+
+/* aligning list results */
+caption {
+    text-align: center;
+    background: midnightblue;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Table settings */
+table {
+    border: 1px solid #210856;
+    border-collapse: collapse;
+}
+
+td#home {
+    border: none;
+    width: 5px;
+}
